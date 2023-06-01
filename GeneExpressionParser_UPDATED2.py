@@ -47,7 +47,7 @@ comp_df_1b = comp_df_1b + "_sample_table.txt"
 # 6.Write a log2FC calculator function for two Treatment dataframes
 
 # Foldchange = Treatment / Control
-# UPDATED**  "Log2(FC)" = log2(mean(Treatment)/ log2(mean(Control)))
+# UPDATED**  "Log2(FC)" = log2(mean(Treatment))/ log2(mean(Control))
 
 def log2fc_calculator(df):
     # Create an empty dataframe to store the results
